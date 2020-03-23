@@ -1,0 +1,565 @@
+/*index.html*/
+#logo{
+    margin-top: 30px;
+    margin-left: 60px;
+    margin-bottom: 40px;
+    width:90px;
+    height:110px;
+}
+body{
+    margin:0px;
+}
+.button{
+    background-color:white;
+    color:royalblue;
+    font-size: 11px;
+    border:none;
+    padding:10px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+
+    text-decoration: none;
+
+    margin-right: 13px;
+}
+.button:hover{
+    background-color: royalblue;
+    color:white;
+    text-decoration: none;
+}
+#language_setter{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+#contact{
+text-align: right;
+}
+#contact_top{
+    margin-right: 15px;
+    color: gray;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+}
+#contact_top:hover{
+    margin-right: 15px;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+}
+#page-container{
+    margin-right: 10px;
+    position:relative;
+    min-height: 100vh;
+    width:100%;
+}
+#container{
+    display:flex;
+    flex-direction:row;
+    height:100%;
+    padding-bottom:  2.5rem;
+}
+#nav ul {
+    margin-top:160px;
+    margin-left:30px;
+    list-style:none;
+    text-decoration: none;
+}
+#nav ul li{
+    padding-bottom: 7px;
+    padding-left:15px;
+    width: 67px;
+    height: 45px;
+    margin:none;
+
+}
+#introduction{
+    margin-top: 140px;
+    margin-bottom:500px;
+}
+
+#nav ul li a{
+    width: 67px;
+    height: 45px;
+
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 29px;
+    text-decoration: none;
+    list-style:none;
+
+
+    color: #000000;
+}
+
+#nav ul li a:hover{
+    color:royalblue;
+}
+
+.active:before{
+    content: "";
+    border-color:royalblue;
+    border-style: solid;
+    height: 0;
+    width: 0;
+    left: -1em;
+    top: 0.1em;
+    position: relative;
+    padding:0px;
+
+}
+
+#Hello{
+    margin-top:30px;
+    margin-left: 170px;
+
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+
+    color: #4B5744;
+}
+a{
+    text-decoration:none;
+    color: black;
+    font-weight: bold;
+}
+a:hover{
+    text-decoration:underline 3px;
+    color: tomato;
+}
+#intro1{
+    margin-top:0px;
+    margin-right:15px;
+    margin-left:0px;
+    margin-bottom: 5px;
+
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+
+    color: royalblue;
+}
+#intro2{
+    margin-right:200px;
+    margin-left:0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+
+    color: gray;
+
+}
+#intro3{
+    margin-right:133px;
+    margin-left:0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-size: 15px;
+
+    color:gray;
+}
+#intro4{
+    margin-right:200px;
+    margin-left:0px;
+
+
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-size: 15px;
+
+    color:gray;
+}
+#intro5{
+    margin-right:30px;
+    margin-left:0px;
+
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-size: 13px;
+
+    color:gray;
+}
+#cornell{
+    text-decoration: none;
+    color: black;
+}
+#cornell:hover{
+    color: OrangeRed;
+}
+#infosci{
+    text-decoration: none;
+    color:black;
+}
+#infosci:hover{
+    color: DarkSeaGreen;
+}
+#github{
+    text-decoration: none;
+    color: MediumPurple;
+}
+#github:hover{
+    color: 	Plum;
+}
+/* resume.html */
+ol {
+    margin-top:10px;
+    list-style:none;
+    text-decoration: none;
+}
+ol li{
+    margin-left:40px;
+    margin-bottom:none;
+}
+ol li a{
+    margin:none;
+    text-decoration:none;
+    color:black;
+    font-weight:bold;
+    font-size: 15px;
+}
+ol li a:hover{
+    color:rgba(23, 51, 6, 0.47);
+}
+a #contactmargin{
+    margin-top:30px;
+}
+#resume{
+    padding-top: 150px;
+    margin-left: 50px;
+    padding-left: 100px;
+    padding-right:90px;
+    font-size: 26px;
+    font-weight: bold;
+    font-family:'Open Sans', sans-serif;
+    color:royalblue;
+
+}
+#resume:hover{
+    color:#4169E1;
+    text-decoration: underline;
+}
+#scroll{
+    margin-left:500px;
+}
+#triangle{
+    margin-left:600px;
+    height:20px;
+    width:20px;
+}
+
+/*design.html*/
+#p1_de{
+    color:gray;
+}
+.container {
+  max-width: 1100px;
+  margin: auto;
+  overflow: auto;
+  padding: 0 2rem;
+}
+#datahead{
+    font-family: 'Open Sans', sans-serif;
+    text-align: left;
+    color: royalblue;
+    font-weight: bold;
+    margin-top: 80px;
+    margin-bottom: 0;
+    margin-left: 40px;
+    font-size:60px;
+    font-style: bold;
+}
+#below_datahead{
+    margin-bottom: 4rem;
+    color:gray;
+    font-size: 13px;
+    margin-left: 40px;
+}
+
+img {
+  width: 100%;
+}
+
+.card {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  background: white;
+  margin-bottom: 5rem;
+  border-radius: 15px 70px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.card h3 {
+  margin-bottom: 1.5rem;
+  margin-top:0rem;
+  font-size: 20px;
+}
+
+.card img {
+  height: 250px;
+  width: 450px;
+  margin-left: 20px;
+}
+
+.card > div {
+  padding: 2rem;
+  padding-top:1rem;
+
+}
+
+.card:nth-child(even) img {
+  order: 2;
+}
+.btn {
+  display: inline-block;
+  background: royalblue;
+  color: white;
+  padding: 0.4rem 2.8rem;
+  margin-top: 0.5rem;
+  cursor: pointer;
+  border-radius: 0;
+  margin-left:300px;
+  text-decoration:none;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
+}
+
+.btn:hover {
+  opacity: 0.8;
+  color:white;
+  text-decoration: none;
+
+}
+.source{
+    color: #e7e7e7;
+}
+.source hover{
+    color:rgba(23, 51, 6, 0.47);
+}
+footer{
+    width:100%;
+    position: absolute;
+    bottom:0;
+    height:2.5rem;
+    background-color: black;
+    opacity:0.75;
+    color: white;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+   font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+}
+div.footer2{
+    width:100%;
+    height:2.5rem;
+    background-color: black;
+    opacity:0.75;
+    color: white;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+}
+#feedback_footer{
+     padding-bottom: 15px;
+    padding-top: 20px;
+}
+p#statement1{
+    padding-top:0px;
+    margin:none;
+    font-size:13px;
+}
+a#contactmargin2{
+    color:white;
+    text-decoration: none;
+}
+a#statement1 :hover{
+    color:salmon;
+    text-decoration: none;
+}
+a#contactmargin :hover{
+    color:salmon;
+    text-decoration: none;
+}
+p#statement2{
+    padding-top:10px;
+    text-decoration:italic;
+    font-size:13px;
+}
+#feedback_form{
+    margin-top:30px;
+    margin-left: 30px;
+}
+h3#form_head{
+    text-align:left;
+    font-size: 40px;
+    color: royalblue;
+    margin-bottom: 2px;
+    font-weight:bold;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 0px;
+}
+#form_body{
+    margin-left: 30px;
+    padding-left: 30px;
+    width:500px;
+    font-family: 'Open Sans', sans-serif;
+}
+h4{
+    text-align: left;
+    margin-bottom:40px;
+    font-size:17px;
+    font-weight:normal;
+    margin-top: 0px;
+}
+label{
+    font-size:14px;
+}
+.form_feedback{
+    color:red;
+    margin:0;
+    font-size: 15px;
+}
+#name_field{
+    border-style:soild;
+    border-color: royalblue;
+    border-radius:0;
+    background-color: white;
+}
+#email_field{
+    border-style:soild;
+    border-color: royalblue;
+    border-radius:0;
+    background-color: white;
+}
+#tips_field{
+    width: 400px;
+    height:50px;
+    padding:12px 20px;
+    border-style:soild;
+    border-color: royalblue;
+    border-radius:0;
+    background-color: white;
+}
+#question_field{
+    width: 400px;
+    height:50px;
+    padding:12px 20px;
+    border-style:soild;
+    border-color: royalblue;
+    border-radius:0;
+    background-color: white;
+}
+input{
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+#submit_button{
+    background-color: white;
+    color:royalblue;
+    border-radius: 0px;
+    border:solid;
+    border-width: 2px;
+    padding:10px;
+    margin-left:380px;
+    margin-bottom:300px;
+}
+#submit_button:hover{
+    background-color: royalblue;
+    color:white;
+    border-radius: 0px;
+    border:none;
+    padding:10px;
+}
+#back_to_page{
+    background-color: darkseagreen;
+    color:white;
+    font-weight: bold;
+    border-radius: 12px;
+    border:none;
+    padding:10px;
+    text-decoration: none;
+}
+#back_to_page:hover{
+    background-color: darkslategrey;
+}
+
+@media(max-width:600px) {
+#container{
+    display:flex;
+    flex-direction:column;
+}
+img#logo{
+    margin-top: 50px;
+    margin-left: 43%;
+    margin-right: 40%;
+    margin-bottom: 30px;
+    align-content: center;
+}
+body{
+    margin:0px;
+}
+#nav{
+    margin-top: 30px;
+}
+#nav ul{
+    margin:0px;
+    padding:0px;
+    text-align: center;
+}
+#nav ul li{
+    padding-left: 0px;
+    text-align: center;
+    width: 67px;
+    height: 45px;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;
+}
+#Hello{
+    margin:0px;
+    padding-left:6px;
+    padding-bottom: 20px;
+}
+
+#intro1{
+    margin:0px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#intro2{
+    margin:0px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#intro3{
+    margin:0px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+  .card {
+    display: block;
+  }
+p{
+    font-size: 9px;
+}
+}
